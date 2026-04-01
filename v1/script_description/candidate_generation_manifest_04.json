@@ -1,0 +1,7 @@
+{
+  "script": "./xai/random_02.R",
+  "lengths": [15, 16, 17, 18, 19, 20],
+  "n_per_length": 500000,
+  "final_output_file": "./Dataset/pos.csv",
+  "observed_rows": 3000000
+}
