@@ -7,3 +7,4 @@
 | 500000 sequences based on low-frequency 5-mers | ./xai/random_02.R | ./xai/neg.csv | 600000 rows |
 | 10,000 optimized decoy conformations | ./rosetta/data_analysis_04.ipynb | ./Dataset/rosetta.csv | 10000 rows |
 | 10 sequence | ./rosetta/rosetta_05.R | ./rosetta/result.csv | 10 rows |
+
