@@ -1,6 +1,0 @@
-{
-  "script": "../rose tta/rosetta_visua_05.R",
-  "input_file": "../Dataset/rosetta.csv",
-  "selected_top_n": 10,
-  "final_output_file": "result.csv"
-}
