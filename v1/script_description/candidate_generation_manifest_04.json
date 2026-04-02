@@ -1,0 +1,10 @@
+{
+  "script": "./xai/random_02.R",
+  "lengths": [15, 16, 17, 18, 19, 20],
+  "n_pos_per_length": 500000,
+  "n_neg_per_length": 100000,
+  "final_pos_output_file": "./Dataset/pos.csv",
+  "final_neg_output_file": "./Dataset/neg.csv",
+  "observed_pos_rows": 3000000,
+  "observed_neg_rows": 600000
+}

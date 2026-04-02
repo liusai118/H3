@@ -1,0 +1,9 @@
+{
+  "script": "./xai/mut_04.R",
+  "input_ranked_file": "../Dataset/pos.csv",
+  "selected_top_n": 10000,
+  "mutants_per_sequence": 10,
+  "mutation_sites_range": [1, 5],
+  "final_output_file": "../Dataset/mut.csv",
+  "observed_rows": 100000
+}
