@@ -1,6 +1,0 @@
-{
-  "source_dataset": "./proprecess/gkmsvm/H3_minOv2_summits250_consensusPeaks.bed",
-  "script": "./proprecess/gkmsvm/preprocess.R",
-  "final_output_file": "./proprecess/gkmsvm/all.csv",
-  "observed_rows": 22095
-}

@@ -1,5 +1,0 @@
-{
-  "script": "../rosetta/run_rosetta_03.sh",
-  "input_file": "output of ProteinX",
-  "final_output_file": "../Dataset/rosetta.csv"
-}
