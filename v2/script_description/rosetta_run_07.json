@@ -1,9 +1,0 @@
-{
-  "input_file1": "../XAI/ProteinX.csv",
-  "tools": "https://protenix-server.com",
-  "output_file1": "../structure",
-  "input_file2": "../structure",
-  "script1": "../rosetta/run_rosetta_03.sh",
-  "script2": "../rosetta/data_analysis_04.ipynb",
-  "output_file2": "../Dataset/rosetta.csv"
-}

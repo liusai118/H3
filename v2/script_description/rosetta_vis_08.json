@@ -1,8 +1,0 @@
-{
-  "script": "../rosetta/rosetta_05.R",
-  "input_file": "../Dataset/rosetta.csv",
-  "selected_top_n1": 10,
-  "selected_top_n2": 5,
-  "final_output_file1": "exh.csv",
-  "final_output_file2": "exp.csv"
-}
