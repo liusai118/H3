@@ -1,0 +1,12 @@
+{
+  "proteinx_input_file": "../XAI/ProteinX.csv",
+  "proteinx_tool": "https://protenix-server.com",
+  "proteinx_models_per_sequence": 5,
+  "proteinx_output_dir": "../structure",
+  "rosetta_input_dir": "../structure",
+  "rosetta_script": "../rosetta/run_rosetta_03.sh",
+  "rosetta_nstruct_per_model": 20,
+  "rosetta_score_file": "../Dataset/rosetta.csv",
+  "final_top10_file": "../rosetta/exh.csv",
+  "final_top5_file": "../rosetta/exp.csv"
+}
