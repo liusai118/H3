@@ -44,8 +44,8 @@ After extraction, the folder is named `Dataset`. It contains the following files
 | 11,048 positive sequences and 11,047 valid negative sequences | `./proprecess/gkmsvm/preprocess.R` | `./proprecess/gkmsvm/all.csv` | 22,095 rows |
 | Model-specific thresholds | `./run/rep*.ipynb` | `./out/threshold_manifest.json` | rep1–rep10 |
 | 3,000,000 candidate sequences | `./XAI/random_02.R` | `./sequence/pos_seq.csv` | 3,000,000 rows |
-| 600,000 sequences based on low-frequency 5-mers | `./xai/random_02.R` | `./sequence/neg_seq.csv` | 600,000 rows |
+| 600,000 sequences based on low-frequency 5-mers | `./XAI/random_02.R` | `./sequence/neg_seq.csv` | 600,000 rows |
 | 100,000 mutated sequences | `./XAI/mut_06.R` | `./sequence/mut_seq.csv` | 100,000 rows |
-| 100 sequences for ProteinX | `./XAI/proteinx_07.R` | `./xai/ProteinX.csv` | 100 rows |
+| 100 sequences for ProteinX | `./XAI/proteinx_07.R` | `./XAI/ProteinX.csv` | 100 rows |
 | 10,000 optimized decoy conformations | `./rosetta/data_analysis_04.ipynb` | `./Dataset/rosetta.csv` | 10,000 rows |
 | Top 5 sequences | `./rosetta/rosetta_05.R` | `./rosetta/exp.csv` | 5 rows |
