@@ -49,3 +49,67 @@ After extraction, the folder is named `Dataset`. It contains the following files
 | 100 sequences for ProteinX | `./XAI/proteinx_07.R` | `./XAI/ProteinX.csv` | 100 rows |
 | 10,000 optimized decoy conformations | `./rosetta/data_analysis_04.ipynb` | `./Dataset/rosetta.csv` | 10,000 rows |
 | Top 5 sequences | `./rosetta/rosetta_05.R` | `./rosetta/exp.csv` | 5 rows |
+
+
+
+## System Requirements
+
+### Hardware Requirements
+
+DPBindNet was trained and tested on an NVIDIA GeForce RTX 5090 GPU.
+
+### Software Requirements
+
+#### Operating System
+
+- Linux: Ubuntu 22.04
+
+#### Dependencies
+
+All required software dependencies are listed in `environment.yml`.
+
+## Installation Guide
+
+Create the conda environment using:
+
+```bash
+conda env create -f environment.yml
+```
+
+Activate the environment:
+
+```bash
+conda activate dna_torch
+```
+
+The typical installation time for all dependencies is approximately 40 minutes, depending on internet speed and hardware configuration.
+
+## Demo
+
+To run the demo file:
+
+```bash
+python ./run/test.py
+```
+
+When trained on an NVIDIA GeForce RTX 5090 GPU, the training process takes approximately 6 minutes.
+
+After successful execution, the following output files will be generated:
+
+```text
+../out/rep1/best_model.pt
+../out/rep1/roc_hold.csv
+../out/rep1/pr_hold.csv
+../out/rep1/pred_hold.csv
+```
+
+## Instructions for use
+### run the software
+Detailed information about the dataset is provided in the Data Summary section.
+
+### Reproduction Instructions
+The training workflow of DPBindNet is implemented in Jupyter Notebook to improve the transparency and reproducibility of the analysis. 
+
+
+## License
+This project is released under the MIT License.
