@@ -5,7 +5,7 @@
 The **sequence** folder is available for download at:  
 https://drive.google.com/file/d/14HpnidUxznzjZTv_TvWRuoV5ddk0hNdS/view?usp=sharing  
 or
-10.6084/m9.figshare.32962415
+https://doi.org/10.6084/m9.figshare.32962415 (figure share)
 
 After extraction, the folder is named `sequence`. It contains the following files:
 
