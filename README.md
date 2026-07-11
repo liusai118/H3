@@ -44,7 +44,7 @@ After extraction, the folder is named `Dataset`. It contains the following files
 
 | Description | Script | Output File | Value / Notes |
 |-------------|--------|------------|----------------|
-| 11,048 positive sequences and 11,047 valid negative sequences | `./proprecess/gkmsvm/preprocess.R` | `./proprecess/gkmsvm/all.csv` | 22,095 rows |
+| 11,048 positive sequences and 11,047 valid negative sequences | `./preprocess/gkmsvm/preprocess.R` | `./preprocess/gkmsvm/all.csv` | 22,095 rows |
 | Model-specific thresholds | `./run/rep*.ipynb` | `./out/threshold_manifest.json` | rep1–rep10 |
 | 3,000,000 candidate sequences | `./XAI/random_02.R` | `./sequence/pos_seq.csv` | 3,000,000 rows |
 | 600,000 sequences based on low-frequency 5-mers | `./XAI/random_02.R` | `./sequence/neg_seq.csv` | 600,000 rows |
